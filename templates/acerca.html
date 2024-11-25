@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="d-flex justify-content-center mt-3">
+  <div class="col-lg-4">
+
+    <img src="{{ url_for('static', filename='img/nilda.jpeg') }}" alt="" class="bd-placeholder-img rounded-circle" width="140" height="140">
+    <h2 class="fw-normal">Nilda Maribel Turpo Huamán</h2>
+    <p>Estudiante de Ingeniería Ambiental en la Universidad Peruana Cayetano Heredia (UPCH), apasionada por la
+      sostenibilidad y la gestión responsable de los recursos naturales. Con enfoque en el aprendizaje de evaluación de impactos ambientales,
+      conservación de ecosistemas y manejo de desastres naturales, busca aplicar sus conocimientos en proyectos orientados a proteger el medio 
+      ambiente y promover un desarrollo sostenible en Perú.</p>
+      
+    <img src="{{ url_for('static', filename='img/victor.jpeg') }}" alt="" class="bd-placeholder-img rounded-circle" width="140" height="140">
+    <h2 class="fw-normal">Victor Alfredo Liñan Nuñez</h2>
+    <p>Estudiante de Ingeniería Informática en la Universidad Peruana Cayetano Heredia (UPCH), Estoy comenzando mi carrera 
+      y me interesa aprender sobre programación, sistemas y nuevas tecnologías. A través de mis estudios, busco desarrollar 
+      las habilidades necesarias para solucionar problemas y aplicar lo que aprenda en situaciones reales.</p>
+  </div>
+</div>
+
+{% endblock %}
